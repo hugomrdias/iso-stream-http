@@ -1,6 +1,6 @@
 {
   "name": "iso-stream-http",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Isomorphic/Universal implementation of the node http module",
   "main": "index.js",
   "repository": "hugomrdias/iso-stream-http",

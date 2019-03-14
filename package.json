@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "hugomrdias/iso-stream-http",
   "browser": {
-    "index.js": "index.browser.js"
+    "./index.js": "./index.browser.js"
   },
   "files": [
     "lib",

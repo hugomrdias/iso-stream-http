@@ -19,7 +19,7 @@ text and binary data.
 ## Usage
 
 ```js
-const { https, http, getRequest } = require('iso-url');
+const { https, http, getRequest } = require('iso-stream-http');
 
 const req = new http.request('http://localhost/unicorns');
 const req = new https.request('https://secure/unicorns');

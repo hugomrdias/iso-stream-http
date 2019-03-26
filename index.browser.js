@@ -1,17 +1,17 @@
 const http = require('./lib/http')
+const https = http
 const URL = self.URL
-
 
 module.exports = {
     http,
-    https: http,
+    https,
     getRequest: (options, cb) => {
         let protocol = 'http:'
 
-        if(typeof options === 'string'){
+        if (typeof options === 'string') {
             const url = new URL(options)
             protocol = url.protocol
-        } else if(options.protocol){
+        } else if (options.protocol) {
             protocol = options.protocol
         }
 

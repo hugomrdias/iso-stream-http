@@ -33,7 +33,7 @@
     "readable-stream": "^3.1.1"
   },
   "devDependencies": {
-    "airtap": "^0.1.0",
+    "airtap": "^2.0.2",
     "basic-auth": "^2.0.1",
     "brfs": "^2.0.1",
     "cookie-parser": "^1.4.3",
